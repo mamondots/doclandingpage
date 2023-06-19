@@ -1,0 +1,319 @@
+[
+{
+    "name": "Dr. John Smith",
+    "position": "Cardiologist",
+    "image": "https://i.ibb.co/qmxGNxq/Rectangle-15-1.png",
+    "rating": {
+        "$numberDouble": "4.9"
+    },
+    "address": "123 Main Street, City, State",
+    "available_date": "June 5th, 2023",
+    "price": "$200",
+    "aboutme": "I am a passionate and dedicated doctor with a focus on patient-centered care. My goal is to provide comprehensive healthcare services and empower individuals to take control of their well-being.",
+    "education": [
+        {
+            "degree": "Doctor of Medicine (MD)",
+            "university": "University of Medical Sciences",
+            "year": 2008
+        },
+        {
+            "degree": "Bachelor of Science in Biology",
+            "university": "State University",
+            "year": 2004
+        }
+    ],
+    "work-experience": [
+        {
+            "position": "Primary Care Physician",
+            "hospital": "Community Health Center",
+            "location": "City ABC",
+            "start-year": 2009,
+            "end-year": null
+        },
+        {
+            "position": "Resident Physician",
+            "hospital": "City Hospital",
+            "location": "City XYZ",
+            "start-year": 2008,
+            "end-year": 2009
+        }
+    ],
+    "services": [
+        "General check-ups",
+        "Preventive medicine",
+        "Vaccinations",
+        "Chronic disease management",
+        "Women's health"
+    ],
+    "awards": [
+        {
+            "name": "Community Service Award",
+            "year": 2015,
+            "details": "Recognized for outstanding community service and dedication to improving access to healthcare."
+        },
+        {
+            "name": "Excellence in Patient Care Award",
+            "year": 2012,
+            "details": "Acknowledged for delivering exceptional care and building strong patient relationships."
+        },
+        {
+            "name": "Medical Research Grant",
+            "year": 2010,
+            "details": "Received a grant to conduct research on innovative treatment methods."
+        }
+    ],
+    "specializations": [
+        "Family Medicine",
+        "Internal Medicine"
+    ],
+    "location": {
+        "address": "456 Elm Street",
+        "city": "City ABC",
+        "state": "State XYZ",
+        "zip": "67890"
+    },
+    "business-hours": [
+        {
+            "day": "Monday",
+            "start-time": "08:00 AM",
+            "end-time": "05:00 PM"
+        },
+        {
+            "day": "Tuesday",
+            "start-time": "08:00 AM",
+            "end-time": "05:00 PM"
+        },
+        {
+            "day": "Wednesday",
+            "start-time": "08:00 AM",
+            "end-time": "12:00 PM"
+        },
+        {
+            "day": "Thursday",
+            "start-time": "08:00 AM",
+            "end-time": "05:00 PM"
+        },
+        {
+            "day": "Friday",
+            "start-time": "08:00 AM",
+            "end-time": "05:00 PM"
+        },
+        {
+            "day": "Saturday",
+            "start-time": "Closed",
+            "end-time": "Closed"
+        },
+        {
+            "day": "Sunday",
+            "start-time": "Closed",
+            "end-time": "Closed"
+        }
+    ]
+},
+{"name":"Dr. Jane Doe","position":"Dermatologist","image":"https://i.ibb.co/5x1mWty/Rectangle-15-2.png","rating":{"$numberDouble":"4.7"},"address":"456 Elm Street, City, State","available_date":"June 7th, 2023","price":"$150","aboutme": "I am a dedicated and compassionate doctor specializing in pediatrics. My mission is to provide the highest quality of care to children and support families in their journey towards raising healthy and happy individuals.",
+"education": [
+  {
+    "degree": "Doctor of Medicine (MD)",
+    "university": "Children's Medical College",
+    "year": 2012
+  },
+  {
+    "degree": "Bachelor of Science in Biology",
+    "university": "University of Health Sciences",
+    "year": 2008
+  }
+],
+"work-experience": [
+  {
+    "position": "Pediatrician",
+    "hospital": "Children's Hospital",
+    "location": "City XYZ",
+    "start-year": 2014,
+    "end-year": null
+  },
+  {
+    "position": "Pediatric Resident",
+    "hospital": "City General Hospital",
+    "location": "City ABC",
+    "start-year": 2012,
+    "end-year": 2014
+  }
+],
+"services": [
+  "Well-child visits",
+  "Immunizations",
+  "Developmental screenings",
+  "Childhood illness management",
+  "Parental guidance"
+],
+"awards": [
+  {
+    "name": "Pediatric Excellence Award",
+    "year": 2019,
+    "details": "Recognized for exceptional care and commitment to the well-being of children."
+  },
+  {
+    "name": "Community Outreach Award",
+    "year": 2017,
+    "details": "Acknowledged for active involvement in community outreach programs promoting child health and education."
+  },
+  {
+    "name": "Research Poster Presentation Award",
+    "year": 2013,
+    "details": "Received award for an outstanding research poster presentation at a national pediatrics conference."
+  }
+],
+"specializations": [
+  "Pediatrics",
+  "Neonatology"
+],
+"location": {
+  "address": "789 Maple Avenue",
+  "city": "City XYZ",
+  "state": "State ABC",
+  "zip": "45678"
+},
+"business-hours": [
+  {
+    "day": "Monday",
+    "start-time": "09:00 AM",
+    "end-time": "06:00 PM"
+  },
+  {
+    "day": "Tuesday",
+    "start-time": "09:00 AM",
+    "end-time": "06:00 PM"
+  },
+  {
+    "day": "Wednesday",
+    "start-time": "09:00 AM",
+    "end-time": "12:00 PM"
+  },
+  {
+    "day": "Thursday",
+    "start-time": "09:00 AM",
+    "end-time": "06:00 PM"
+  },
+  {
+    "day": "Friday",
+    "start-time": "09:00 AM",
+    "end-time": "06:00 PM"
+  },
+  {
+    "day": "Saturday",
+    "start-time": "Closed",
+    "end-time": "Closed"
+  },
+  {
+    "day": "Sunday",
+    "start-time": "Closed",
+    "end-time": "Closed"
+  }
+]
+},
+{"name":"Dr. David Johnson","position":"Orthopedic Surgeon","image":"https://i.ibb.co/8c5hG3B/Rectangle-15.png","rating":{"$numberDouble":"4.5"},"address":"789 Oak Street, City, State","available_date":"June 10th, 2023","price":"$250",
+"aboutme": "I am a highly skilled and experienced cardiologist dedicated to providing comprehensive cardiovascular care. I strive to deliver personalized treatment plans and educate patients on heart health to improve their quality of life.",
+"education": [
+  {
+    "degree": "Doctor of Medicine (MD)",
+    "university": "Cardiovascular Institute",
+    "year": 2006
+  },
+  {
+    "degree": "Bachelor of Science in Biology",
+    "university": "State University",
+    "year": 2002
+  }
+],
+"work-experience": [
+  {
+    "position": "Cardiologist",
+    "hospital": "CardioCare Center",
+    "location": "City ABC",
+    "start-year": 2008,
+    "end-year": null
+  },
+  {
+    "position": "Cardiology Fellow",
+    "hospital": "Cardiovascular Hospital",
+    "location": "City XYZ",
+    "start-year": 2006,
+    "end-year": 2008
+  }
+],
+"services": [
+  "Cardiac evaluations",
+  "Echocardiography",
+  "Stress testing",
+  "Cardiac catheterization",
+  "Arrhythmia management"
+],
+"awards": [
+  {
+    "name": "Cardiologist of the Year",
+    "year": 2017,
+    "details": "Recognized for outstanding contributions to the field of cardiology and patient care."
+  },
+  {
+    "name": "Research Grant for Cardiovascular Studies",
+    "year": 2014,
+    "details": "Received a grant to conduct research on novel treatments for cardiovascular diseases."
+  },
+  {
+    "name": "Excellence in Teaching Award",
+    "year": 2012,
+    "details": "Acknowledged for exceptional teaching and mentorship of medical students and residents."
+  }
+],
+"specializations": [
+  "Cardiology",
+  "Interventional Cardiology",
+  "Electrophysiology"
+],
+"location": {
+  "address": "321 Oak Street",
+  "city": "City XYZ",
+  "state": "State ABC",
+  "zip": "23456"
+},
+"business-hours": [
+  {
+    "day": "Monday",
+    "start-time": "08:30 AM",
+    "end-time": "05:30 PM"
+  },
+  {
+    "day": "Tuesday",
+    "start-time": "08:30 AM",
+    "end-time": "05:30 PM"
+  },
+  {
+    "day": "Wednesday",
+    "start-time": "08:30 AM",
+    "end-time": "12:30 PM"
+  },
+  {
+    "day": "Thursday",
+    "start-time": "08:30 AM",
+    "end-time": "05:30 PM"
+  },
+  {
+    "day": "Friday",
+    "start-time": "08:30 AM",
+    "end-time": "05:30 PM"
+  },
+  {
+    "day": "Saturday",
+    "start-time": "Closed",
+    "end-time": "Closed"
+  },
+  {
+    "day": "Sunday",
+    "start-time": "Closed",
+    "end-time": "Closed"
+  }
+]
+
+
+}
+]
