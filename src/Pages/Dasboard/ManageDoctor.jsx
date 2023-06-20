@@ -7,7 +7,7 @@ const ManageDoctor = () => {
   
   const [doctors, setDoctors] = useState([])
   useEffect(() => {
-    fetch('http://localhost:5000/doctors')
+    fetch('https://doctore-server-site-mamondots.vercel.app/doctors')
       .then(res => res.json())
       .then(data => {
         setDoctors(data)
@@ -33,7 +33,7 @@ const ManageDoctor = () => {
         //'success'
         // )
 
-        fetch(`http://localhost:5000/doctors/${_id}`, {
+        fetch(`https://doctore-server-site-mamondots.vercel.app/doctors/${_id}`, {
           method: 'DELETE'
         })
           .then(res => res.json())

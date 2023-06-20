@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const AllUser = () => {
      const [allUesrs, setAllUesrs] = useState([])
      useEffect(() =>{
-        fetch('http://localhost:5000/users')
+        fetch('https://doctore-server-site-mamondots.vercel.app/users')
         .then(res => res.json())
         .then(data => {
             setAllUesrs(data)

@@ -5,7 +5,7 @@ import ExportDoctorCard from "./ExportDoctorCard";
 const ExportDoctor = () => {
     const [doctors, setDoctors] = useState([])
     useEffect(() =>{
-        fetch('http://localhost:5000/doctors')
+        fetch('https://doctore-server-site-mamondots.vercel.app/doctors')
         .then(res => res.json())
         .then(data => setDoctors(data))
     },[])

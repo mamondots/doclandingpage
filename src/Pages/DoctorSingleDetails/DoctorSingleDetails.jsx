@@ -9,7 +9,7 @@ const DoctorSingleDetails = () => {
     const { id } = useParams()
     const [singleInfo, setSingleInfo] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/doctors/${id}`)
+        fetch(`https://doctore-server-site-mamondots.vercel.app/doctors/${id}`)
             .then(res => res.json())
             .then(data => setSingleInfo(data))
     }, [])

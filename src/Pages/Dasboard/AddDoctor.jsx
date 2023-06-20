@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 const AddDoctor = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:5000/doctors',{
+        fetch('https://doctore-server-site-mamondots.vercel.app/doctors',{
             method:'POST',
             headers:{
                 'content-type': 'application/json'
