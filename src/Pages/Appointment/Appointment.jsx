@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Appointment = () => {
     const [appointmentData, setAppointmentData] = useState([])
     useEffect(() => {
-        fetch('https://doctore-server-site-mamondots.vercel.app/appointments')
+        fetch('https://doctore-server-site-1btl6gt9p-mamondots.vercel.app/appointments')
             .then(res => res.json())
             .then(data => {
                 console.log(data)
