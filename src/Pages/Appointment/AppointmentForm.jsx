@@ -5,7 +5,7 @@ const AppointmentForm = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
 
-        fetch('https://doctore-server-site-1btl6gt9p-mamondots.vercel.app/bookAppointments',{
+        fetch('https://doctore-server-site-mamondots.vercel.app/bookAppointments',{
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -7,7 +7,7 @@ const UpdateDoctor = () => {
     const { id } = useParams()
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const onSubmit = data => {
-        fetch(`https://doctore-server-site-1btl6gt9p-mamondots.vercel.app/doctors/${id}`,{
+        fetch(`https://doctore-server-site-mamondots.vercel.app/doctors/${id}`,{
             method:'PATCH',
             headers:{
                 'content-type': 'application/json'

@@ -22,7 +22,7 @@ const SingUp = () => {
             updateUserProfile(data.name, data.photoURL)
             .then(() =>{
                 const saveUser = {name:data.name, photo:data.photoURL}
-                fetch('https://doctore-server-site-1btl6gt9p-mamondots.vercel.app/users',{
+                fetch('https://doctore-server-site-mamondots.vercel.app/users',{
                     method:'POST',
                         headers:{
                             'content-type':'application/json'
